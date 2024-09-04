@@ -1,0 +1,278 @@
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width :20%;
+    min-width: 400px;
+    background-color: #0A0C17;
+    border:solid;
+    border-color: #000212ed;
+  
+    justify-content: space-between;
+    z-index: 99;
+   
+   
+    
+   
+
+
+
+
+}
+
+.upper-chat{
+  
+    
+    background-color: #000212ed;
+    margin-top: 10px;
+    align-self: center;
+    
+
+    
+
+    position: absolute;
+    top: 7%;
+    width: 94%;
+    
+    height: 100px;
+    
+    align-content: center;
+    
+    
+    
+    
+
+}
+.chat-title{
+    font-size: 22px;
+    color: rgb(0, 255, 194);
+    
+   
+    text-align: center;
+   
+
+
+
+}
+.body-chat{
+
+    background-color: #000212ed;
+    margin-top: 10px;
+    align-self: center;
+    
+
+    
+
+    position: absolute;
+   
+    bottom: 16%;
+    
+    width: 94%;
+    
+    height: 66%;
+    align-content: center;
+    
+
+
+}
+.lower-chat{
+    display: flex;
+    flex-direction: row;
+
+
+    background-color: #000212ed;
+    margin-top: 10px;
+    align-self: center;
+    
+
+    
+
+    position: absolute;
+    bottom: 6%;
+    width: 94%;
+    
+    
+    height: 100px;
+    
+}
+.chat-container{
+    position: relative;
+    margin-left: 10px;
+    
+   
+            align-self: center;
+           
+            background-color: #000212ed;
+            width: 92%;
+            height: 96%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            text-align: justify;
+            padding-left: 10px;
+            padding-right: 10px;
+            direction: rtl;
+            
+    
+
+    
+   
+    
+}
+.chat
+{
+    color: rgb(173, 173, 173);;
+    direction:ltr;
+}
+
+.chat-bar{
+    
+    position:relative;
+    left: 14px;
+    top: 14px;
+    height: 40px;
+    width: 80%;
+    margin-left: 30px;
+    
+
+ 
+    font-size: 16px;
+    background-color: rgb(10, 12, 23);
+    color: rgb(173, 173, 173);
+    border-width: 0px;
+    border: none;
+    outline: none;
+
+
+
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    padding-left: 20px;
+    
+}
+
+.chat-bar::placeholder{
+    font-family: poppins;
+    font-size: 23x;
+    padding-left: 8px;
+    
+
+
+
+}
+.Send-button{
+    position:relative;
+    background-color: rgb(10, 12, 23);
+    border:none;
+    outline: none;
+    height: 42px;
+    top: 14px;
+    right: 14px;
+   
+    
+    
+   
+    
+
+}
+.Send-icon{
+    width: 18px;
+    padding-left: 40px;
+    
+
+
+
+
+}
+.chat-line{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+
+}
+.chat-hadra{
+
+    flex: 1;
+    font-weight: 500;
+    
+   
+}
+.chat-user{
+    
+    padding-right: 10px;
+    
+    font-weight: 700;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    
+    
+    position: absolute;
+   
+    bottom: 0;
+    left: 3%;
+    right: 3%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+
+    
+    
+
+}
+.twitter-pic{
+    
+
+    width: 24PX;
+    height: 24PX;
+}
+.discord-pic{
+
+    width: 28px;
+    height: 28Px;
+    padding-bottom: 10px;
+}
+.instagram-pic{
+
+    width: 28px;
+    height: 28Px;
+}
+.facebook-pic{
+    width: 28px;
+    height: 28Px;
+}
+.twitter-button{
+    background-color: rgb(10, 12, 23);
+    width: 28px;
+    height: 28Px;
+    border: none;
+}
+.discord-button{
+    background-color: rgb(10, 12, 23);
+    width: 28px;
+    height: 28Px;
+    border: none;
+}
+.instagram-button{
+    background-color: rgb(10, 12, 23);
+    width: 28px;
+    height: 28Px;
+    border: none;
+}
+.facebook-button{
+    background-color: rgb(10, 12, 23);
+    width: 28px;
+    height: 28Px;
+    border: none;
+}
+

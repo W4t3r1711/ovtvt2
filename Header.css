@@ -1,0 +1,363 @@
+
+div{
+    font-family: poppins,Arial;
+
+}
+.header{
+    display:flex;
+    height: 70px;
+    background-color: rgb(0, 2, 18);
+    position: fixed;
+    left:0px;
+    right: 0px;
+    top:0px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    top: 0;
+    left:0;
+    right :0;
+    z-index: 100;
+  
+
+
+}
+button{
+    font-family: poppins,Arial;
+    
+
+}
+button:hover{
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.left-section{
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    width: 500px;
+    min-width: 500px;
+    margin-left: 40px;
+    position: relative;
+    
+   
+    
+    
+    
+
+
+}
+.right-section{
+    
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    width: 100px;
+    min-width: 200px;
+    
+    
+    
+    
+
+
+}
+
+.middle-section-3{
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    min-width: 100px;
+    width: 200px;
+    margin-left: 100px;
+    
+
+
+}
+.middle-section-2{
+    flex:1;
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    min-width: 200px;
+   
+    margin-left: 500px;
+    
+    
+    
+
+
+}
+
+.middle-section-1{
+    flex:1;
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    min-width: 200px;
+    width: 500px;
+    margin-left: 80px;
+
+
+
+}
+.home-button{
+   
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    border-bottom: 3px solid #00FFC2; 
+    border-radius: 2px;
+    
+    
+    
+}
+.Tournaments-button{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+    border: none; 
+}
+
+
+.events-button{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    border: none; 
+}
+.shop-button{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+    border: none; 
+}
+
+.ham-button{
+    padding-top: 30px;
+    flex:1;
+    width: 50px;
+    border: none;
+    background-color: #000212;
+    background-color: none;
+    
+}
+
+
+.profile-pic{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+
+
+
+}
+.profile-infos{
+    align-items: center;
+   
+    display: flex;
+    flex-direction: row;
+
+
+}
+.profile-infos-text{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+
+.ID{
+    padding-left: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+
+
+}
+
+.currency-1{
+    padding-left: 15px;
+    color: #00FFC2;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.currency-2{
+    padding-left: 15px;
+    color: #FFAD4E;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.team-pfp{
+
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+.add-button-icon{
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    
+
+
+}
+
+
+
+    
+
+
+
+.add-button{
+    
+    background-color: rgba(0, 2, 18, 0); 
+    border: none;
+    
+
+
+
+}
+.add-button:hover
+{
+    background-color: rgba(0, 2, 18, 0); 
+    border: none;
+    opacity: 60%;
+    
+
+
+
+}
+.add-button:active
+{
+    background-color: rgba(0, 2, 18, 0); 
+    border: none;
+    opacity: 60%;
+   
+
+}
+.team-place-holder{
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    flex-wrap:nowrap;
+
+    min-width: 300px;
+    
+    
+    background-color: #0A0C17;
+    padding: 5px;
+    padding-bottom: 2px;
+
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    
+
+
+
+}
+
+.main-logo{
+    margin-left: 160px;
+
+    
+}
+
+.home-button2{
+   
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    
+    
+    
+    
+}
+.Tournaments-button2{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    border-bottom: 3px solid #00FFC2; 
+    border-radius: 2px;
+    
+}
+
+.events-button2{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    border-bottom: 3px solid #00FFC2; 
+    border-radius: 2px;
+    
+}
+.shop-button2
+{
+    flex: 1 1 200px;
+    color:#00FFC2;
+    height: 70px;
+    background-color: #000212;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none; 
+    border-bottom: 3px solid #00FFC2; 
+    border-radius: 2px;
+    
+}
+
+

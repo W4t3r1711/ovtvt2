@@ -1,0 +1,32 @@
+.ads-box{
+
+
+position: absolute;
+top: 960px;
+background-color: rgb(0, 2, 18);
+
+
+left: 6%;
+right: 8%;
+align-items: center;
+text-align: center;
+z-index: 100;
+
+
+
+
+
+}
+.ads-pic{
+    width: 100%;
+   
+    display: inline-block;
+
+    height: 200px;
+    
+    
+    
+    
+
+    
+}
