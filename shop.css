@@ -28,6 +28,7 @@ left: 0%;
 width: 66%;
 margin-top: 25px;
 border-radius: 30px;
+ object-fit: cover;
 
 }
 
@@ -207,9 +208,10 @@ margin-top: 25px;
 }
 .item-pic{
     position: absolute;
-    left: 0px;
-    top: 5px;
-    padding:10px;
+    left: 5%;
+    top: 5%;
+    right: 5%; 
+    
     height: 300px;
     width: 90%;
 
@@ -478,6 +480,7 @@ margin-top: 25px;
     position: absolute;
     height: 100%;
     border-radius: 30px;
+    object-fit: cover;
     
 }
 .shopbag-pic{
