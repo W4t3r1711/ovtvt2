@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb:hover{
 }
 .container{
     position:absolute;
-    background-color: rgb(10, 12, 23);
+    background-color: rgba(10, 12, 23,0);
     
     
     left: 28%;

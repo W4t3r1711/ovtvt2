@@ -1,7 +1,7 @@
 .stream-box{
 position: absolute;
     
-background-color: rgb(0, 2, 18);
+background-color: rgba(0, 2, 18, 1);
 width: 100%;
 height: 36%;
 
@@ -9,7 +9,7 @@ display:grid;
 grid-template-columns: 86% 20%;
 top: 5%;
 border-radius: 20px;
-outline: solid 2px rgba(126, 126, 126, 0.1);
+
 
 }
 .side-strea-box{
@@ -20,7 +20,7 @@ background-color: rgb(0, 2, 18);
 left: 0%;
 height: 38%;
 width: 10%;
-outline: solid 2px rgba(126, 126, 126, 0.1);
+
 display:grid;
 grid-template-columns: 1280px 300px;
 top: 5%;
@@ -54,9 +54,13 @@ z-index: 0;
 .stream{
     position: relative;
     width: 90%;
-    height: 93%;
+    height: 90%;
     top: 3%;
     left: 2%;
+    border-radius: 20px;
+    
+    
+    
     
     
     
@@ -66,18 +70,18 @@ z-index: 0;
 
 }
 .chanel-panel{
-    zoom: 0.9; 
-    -moz-transform: scale(0.9); 
+    zoom: 0.8; 
+    -moz-transform: scale(0.8); 
     -moz-transform-origin: 0 0;
     align-items: center;
     margin-left: 4%;
     position: relative;
     background-color:rgb(10, 12, 23); 
-    width: 90%;
+    width: 80%;
     height: 90%;
     border-radius: 25px;
    
-    right: 30%;
+    right: 28%;
     top:4%;
    
     overflow-x: hidden;

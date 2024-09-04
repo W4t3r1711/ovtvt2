@@ -10,6 +10,7 @@
     background-color: #0A0C17;
     border:solid;
     border-color: #000212ed;
+    height: 100%;
   
     justify-content: space-between;
     z-index: 99;
@@ -37,7 +38,7 @@
     top: 7%;
     width: 94%;
     
-    height: 100px;
+    height: 9%;
     
     align-content: center;
     
@@ -49,6 +50,7 @@
 .chat-title{
     font-size: 22px;
     color: rgb(0, 255, 194);
+   
     
    
     text-align: center;
@@ -95,7 +97,7 @@
     width: 94%;
     
     
-    height: 100px;
+    height: 9%;
     
 }
 .chat-container{
@@ -105,8 +107,7 @@
    
             align-self: center;
            
-            background-color: #000212ed;
-            width: 92%;
+            background-color:  #000212ed;
             height: 96%;
             overflow-x: hidden;
             overflow-y: auto;
@@ -129,25 +130,27 @@
 
 .chat-bar{
     
-    position:relative;
-    left: 14px;
-    top: 14px;
-    height: 40px;
-    width: 80%;
+    position:absolute;
+    left: 5%;
+    
+    top: 13%;
+    height: 38%;
+    
     margin-left: 30px;
+    right: 5%;
     
 
  
     font-size: 16px;
     background-color: rgb(10, 12, 23);
     color: rgb(173, 173, 173);
-    border-width: 0px;
+   
     border: none;
     outline: none;
 
 
 
-    border-radius: 2px;
+    
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
     padding-left: 20px;
     
@@ -155,7 +158,7 @@
 
 .chat-bar::placeholder{
     font-family: poppins;
-    font-size: 23x;
+    font-size: 16Px;
     padding-left: 8px;
     
 
@@ -163,13 +166,13 @@
 
 }
 .Send-button{
-    position:relative;
+    position:absolute;
     background-color: rgb(10, 12, 23);
     border:none;
     outline: none;
-    height: 42px;
-    top: 14px;
-    right: 14px;
+    height: 40%;
+    top: 13%;
+    right: 5%;
    
     
     
@@ -218,7 +221,7 @@
     bottom: 0;
     left: 3%;
     right: 3%;
-    height: 40px;
+    height: 3.6%;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
@@ -276,3 +279,18 @@
     border: none;
 }
 
+.chat-bar-background{
+
+    position:absolute;
+    left: 5%;
+    background-color: rgb(10, 12, 23);
+    
+    top: 12%;
+    height: 44%;
+    
+    margin-left: 30px;
+    right: 5%;
+
+
+
+}
