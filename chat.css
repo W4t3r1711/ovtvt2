@@ -7,9 +7,9 @@
     bottom: 0;
     width :20%;
     min-width: 400px;
-    background-color: #0A0C17;
+    background-color: var(--Light_BLUE);
     border:solid;
-    border-color: #000212ed;
+    border-color: var(--MAIN_BLUE);;
     height: 100%;
   
     justify-content: space-between;
@@ -27,7 +27,7 @@
 .upper-chat{
   
     
-    background-color: #000212ed;
+    background-color: var(--MAIN_BLUE);;
     margin-top: 10px;
     align-self: center;
     
@@ -35,10 +35,10 @@
     
 
     position: absolute;
-    top: 7%;
+    top: 70px;
     width: 94%;
     
-    height: 9%;
+    height: 120px;
     
     align-content: center;
     
@@ -61,21 +61,24 @@
 }
 .body-chat{
 
-    background-color: #000212ed;
+    background-color: var(--MAIN_BLUE);;
     margin-top: 10px;
-    align-self: center;
-    
+ 
 
-    
+    margin-bottom: 0px;
 
     position: absolute;
    
-    bottom: 16%;
+    bottom: 190px;
     
     width: 94%;
     
-    height: 66%;
+    top: 200px;
+   margin-left: 3%;
+  
+   
     align-content: center;
+
     
 
 
@@ -85,7 +88,7 @@
     flex-direction: row;
 
 
-    background-color: #000212ed;
+    background-color: var(--MAIN_BLUE);;
     margin-top: 10px;
     align-self: center;
     
@@ -93,11 +96,11 @@
     
 
     position: absolute;
-    bottom: 6%;
+    bottom: 75px;
     width: 94%;
     
     
-    height: 9%;
+    height:105px;
     
 }
 .chat-container{
@@ -107,7 +110,7 @@
    
             align-self: center;
            
-            background-color:  #000212ed;
+            background-color: var(--MAIN_BLUE);
             height: 96%;
             overflow-x: hidden;
             overflow-y: auto;
@@ -142,14 +145,14 @@
 
  
     font-size: 16px;
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     color: rgb(173, 173, 173);
-   
+   font-weight: 500;
     border: none;
     outline: none;
 
 
-
+    font-family: poppins;
     
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
     padding-left: 20px;
@@ -167,7 +170,7 @@
 }
 .Send-button{
     position:absolute;
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     border:none;
     outline: none;
     height: 40%;
@@ -221,7 +224,7 @@
     bottom: 0;
     left: 3%;
     right: 3%;
-    height: 3.6%;
+    height: 65px;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
@@ -255,25 +258,25 @@
     height: 28Px;
 }
 .twitter-button{
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     width: 28px;
     height: 28Px;
     border: none;
 }
 .discord-button{
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     width: 28px;
     height: 28Px;
     border: none;
 }
 .instagram-button{
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     width: 28px;
     height: 28Px;
     border: none;
 }
 .facebook-button{
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     width: 28px;
     height: 28Px;
     border: none;
@@ -283,7 +286,7 @@
 
     position:absolute;
     left: 5%;
-    background-color: rgb(10, 12, 23);
+    background-color: var(--Light_BLUE);
     
     top: 12%;
     height: 44%;

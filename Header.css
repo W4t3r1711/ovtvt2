@@ -6,7 +6,7 @@ div{
 .header{
     display:flex;
     height: 70px;
-    background-color: rgb(0, 2, 18);
+    background-color: var(--MAIN_BLUE);
     position: fixed;
     left:0px;
     right: 0px;
@@ -112,7 +112,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -127,7 +127,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color:var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -141,7 +141,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -152,7 +152,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -166,7 +166,7 @@ button:hover{
     flex:1;
     width: 50px;
     border: none;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     background-color: none;
     
 }
@@ -308,7 +308,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -322,7 +322,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -336,7 +336,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -350,7 +350,7 @@ button:hover{
     flex: 1 1 200px;
     color:#00FFC2;
     height: 70px;
-    background-color: #000212;
+    background-color: var(--MAIN_BLUE);
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;

@@ -1,46 +1,66 @@
+
+
+
+
+
+
 .stream-box{
 position: absolute;
     
-background-color: rgba(0, 2, 18, 1);
+;
 right: 6%;
 height: 36%;
 
 display:grid;
 grid-template-columns: 86% 20%;
-top: 3%;
+top: 1%;
 border-radius: 20px;
 left: 6%;
+/*  
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .2);
+box-shadow: 0 0 10px rgba(0,0, 0, .2);
+backdrop-filter: blur(20px) ;µ
+*/
+ 
+
 
 
 
 }
+
 .side-strea-box{
     position: absolute;
     
-background-color: rgb(0, 2, 18);
+background-color: var(--MAIN_BLUE);
 left: 6%;
 
-height: 36%;
-width: 11%;
+height: 33%;
+right: 6%;
 
 display:grid;
 grid-template-columns: 1280px 300px;
-top: 5%;
+top: 2%;
 border-radius: 20px;
+
+
+
+outline: solid 2px rgba(126, 126, 126, 0.05);
 
 
 
 
 
 }
+/* 
 .side-strea-box2{
     position: absolute;
-    right:6%;
-    background-color: rgb(0, 2, 18);
+    right: 6%;
+    background-color:var(--MAIN_BLUE);
     
     
     height: 36%;
-    width: 11%;
+    width: 18%;
     
     display:grid;
     grid-template-columns: 1280px 300px;
@@ -49,12 +69,13 @@ border-radius: 20px;
 
 
 }
+    */
 .stream{
     position: relative;
-    width: 90%;
-    height: 94%;
-    top: 3%;
-    left: 2%;
+    width: 83%;
+    height: 77%;
+    top: 7%;
+    left: 4%;
     border-radius: 20px;
     
     
@@ -68,19 +89,19 @@ border-radius: 20px;
 
 }
 .chanel-panel{
-    zoom: 0.8; 
-    -moz-transform: scale(0.8); 
+    zoom: 0.76; 
+    -moz-transform: scale(0.76); 
     -moz-transform-origin: 0 0;
     align-items: center;
     margin-left: 4%;
-    position: relative;
-    background-color:rgb(10, 12, 23); 
-    width: 80%;
-    height: 90%;
+    position: absolute;
+    background-color: var(--Light_BLUE);
+    width: 16%;
+    height: 87%;
     border-radius: 25px;
    
-    right: 28%;
-    top:4%;
+    right: 3%;
+    top:5%;
    
     overflow-x: hidden;
     overflow-y: auto;
@@ -254,9 +275,9 @@ outline:2px  solid rgb(0, 255, 194);
         
         position: absolute;
         width: 90px;
-        height: 30px;
+        height: 10px;
        
-        bottom: -30px;
+        bottom: 50px;
         left: 4%;
         color: rgb(173, 173, 173);
         font-family: poppins;
@@ -293,4 +314,32 @@ outline:2px  solid rgb(0, 255, 194);
         
 
     }
+    .gift-box-container{
+        position: absolute;
+        bottom: 20px;
+        
+        height:100px;
+        width: 100px;
+        left: 120px;
+  
+       
+
+
+
+
+    }
  
+    .gift-box-pic{
+        position: absolute;
+       
+
+        width: 140px;
+        left: 0px;
+        
+    
+   
+        
+
+
+
+    }
