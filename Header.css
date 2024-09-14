@@ -8,22 +8,22 @@ div{
     height: 70px;
     background-color: var(--MAIN_BLUE);
     position: fixed;
-    left:0px;
-    right: 0px;
+  
     top:0px;
     justify-content: space-between;
     flex-direction: row;
     
     top: 0;
-    left:0;
-    right :0;
+   width: 100%;
     z-index: 100;
+    
   
 
 
 }
 button{
     font-family: poppins,Arial;
+    
     
 
 }
@@ -38,11 +38,10 @@ button:hover{
     display : flex;
     align-items: center;
     flex-wrap:nowrap;
-    width: 500px;
+    width: 20%;
     min-width: 500px;
-    margin-left: 40px;
-    position: relative;
-    
+    margin-left: 160px;
+  
    
     
     
@@ -56,7 +55,7 @@ button:hover{
     display : flex;
     align-items: center;
     flex-wrap:nowrap;
-    width: 100px;
+    width: 6%;
     min-width: 200px;
     
     
@@ -72,7 +71,7 @@ button:hover{
     align-items: center;
     flex-wrap:nowrap;
     min-width: 100px;
-    width: 200px;
+    width: 12%;
     margin-left: 100px;
     
 
@@ -84,7 +83,7 @@ button:hover{
     display : flex;
     align-items: center;
     flex-wrap:nowrap;
-    min-width: 200px;
+    min-width: 12%;
    
     margin-left: 500px;
     
@@ -101,8 +100,7 @@ button:hover{
     align-items: center;
     flex-wrap:nowrap;
     min-width: 200px;
-    width: 500px;
-    margin-left: 80px;
+    width: 35%;
 
 
 
@@ -298,7 +296,7 @@ button:hover{
 }
 
 .main-logo{
-    margin-left: 160px;
+    margin-left: 0px;
 
     
 }
@@ -359,5 +357,72 @@ button:hover{
     border-radius: 2px;
     
 }
+
+
+
+
+   
+  
+  
+
+@media screen and (max-width: 430px) {
+    .stream-box{
+        right: 0px;
+
+
+    }
+    .chanel-panel{
+        opacity: 0;
+    }
+   
+
+  
+  
+   
+    .header{  zoom: 0.85; 
+        -moz-transform: scale(0.85); 
+        -moz-transform-origin: 0 0;}
+  
+  
+  
+    .middle-section-1{
+        margin-left: -700px;
+        zoom: 0.6; 
+        -moz-transform: scale(0.6); 
+        -moz-transform-origin: 0 0;}
+  
+  
+  
+  
+    .main-logo{
+        margin-left: 0px;
+        left: 0px;
+        width: 50px;
+       
+    
+        
+    }
+
+      .left-section{
+        margin-left: 120px;
+        
+  
+      }
+      .stream-box{
+        height: 30%;
+
+
+       
+      }
+      .stream{
+        width: 100%;
+
+      } 
+    }
+
+  
+
+
+
 
 

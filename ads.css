@@ -1,6 +1,6 @@
 .ads-boxx{
     position: absolute;
-    top: 36%;
+    top: 55%;
     height: 10%;
     left: 8%;
     width: 84%;
@@ -8,6 +8,8 @@
     background-color: VAR(--MAIN_BLUE);
     
     outline: solid 2px rgba(126, 126, 126, 0.05);
+    background: rgba(0, 4, 10, 0.4);
+  backdrop-filter: blur(14px);
 
 }
 .add-containerr{
@@ -38,4 +40,13 @@
     
 }
 
+
+@media screen and (max-width: 430px){
+    .ads-boxx{
+        top: 33%;
+
+
+    }
+   
+    }
 

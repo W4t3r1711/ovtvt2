@@ -297,3 +297,27 @@
 
 
 }
+
+@media screen and (max-width: 430px){
+    .chat-box{
+        width:  660px;
+        top: 55%;
+        height: 44%;
+       
+      
+    
+      }
+      .upper-chat{
+        top: 0px;
+
+    }
+    .body-chat{
+        top: 140px;
+        margin-bottom: 0px;
+        
+    }
+    .lower-chat{
+        bottom: 50px;
+
+    }
+    }
